@@ -1,0 +1,10 @@
+[mysqld]
+collation_server=utf8_general_ci
+character_set_server=utf8
+character-set-client-handshake = false #force encoding to uft8
+
+[mysql]
+default-charset-set=UTF-8
+
+En PHP.INI
+upload_max_filesize=128M

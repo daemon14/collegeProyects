@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Example 1</title>
+    <link rel="stylesheet" href="Reportes/style.css" media="all">
+  </head>
+  <body>
+    <header class="clearfix">
+      <div id="logo"> <img src="Reportes/logo.png"> </div>
+      <h1>LISTADO DE PROFESORES DEL PLANTEL</h1>
+      <div id="company" class="clearfix">
+        <div>LICEO BOLIVARIANO "PEDRO MARÍA FREITES" - PUERTO LA CRUZ</div>
+        <br>
+      </div>
+      <div id="project"><span>FECHA</span> August 17, 2015
+        <div><span><br>
+          </span></div>
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center; width: 163px;" class="service"><b>ID_PROF</b></th>
+            <th style="text-align: center; width: 399px;" class="desc"><b>NOMBRE
+                DEL PROFESOR<br>
+              </b></th>
+            <th style="width: 213px;"><b>C.I.<br>
+              </b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="service"><br>
+            </td>
+            <td style="margin-left: 19px;" class="desc"><br>
+            </td>
+            <td class="total"><br>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="grand total">CANTIDAD DE PROFESORES EN
+              MATRÍCULA:</td>
+            <td class="grand total"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="notices">. </div>
+    </main>
+    <footer> Invoice was created on a computer and is valid without the
+      signature and seal. </footer>
+  </body>
+</html>
