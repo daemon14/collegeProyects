@@ -1,0 +1,3 @@
+[ { "key": "alt+e",                   "command": "editor.emmet.action.wrapWithAbbreviation",},
+    { "key": "alt+b",                   "command": "HookyQR.beautifyFile",}
+]
